@@ -60,8 +60,8 @@ How to use
       
       ...
   
-      # cuSIAM (GPU)
-      $(OP)/SIAM_GPU.o : $(SP)/SIAM.cu $(SP)/SIAM.h
+      .# cuSIAM (GPU)
+      .$(OP)/SIAM_GPU.o : $(SP)/SIAM.cu $(SP)/SIAM.h
         nvcc -arch=sm_xx -ccbin icpc -Xcompiler -qopenmp -std=c++14 -c -o $@ $(SP)/SIAM.cu
         
       ...
