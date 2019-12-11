@@ -1,3 +1,7 @@
+// Code written by Pak Ki Henry Tsang, last edited 12/10/2019
+// Email: henrytsang222@gmail.com / tsang@magnet.fsu.edu
+
+
 //Math Libraries
 #include <complex>
 #include <cmath>
